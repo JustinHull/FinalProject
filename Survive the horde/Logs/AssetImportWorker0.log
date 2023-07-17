@@ -1151,3 +1151,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 485.351975 seconds.
+  path: Assets/Kevin Iglesias
+  artifactKey: Guid(fc48a04bb4b6e48ea8ac01b955708981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias using Guid(fc48a04bb4b6e48ea8ac01b955708981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f727c7b1e8cb680181af25d60d5aa6f') in 0.070863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.190655 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions
+  artifactKey: Guid(2cb279c410b7a3e4dbf4aab42283effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions using Guid(2cb279c410b7a3e4dbf4aab42283effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e576ef97b26abf89e199dd7b892e27') in 0.002067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.924602 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Fall.controller
+  artifactKey: Guid(441942176ee9a724b9afe936d1d03496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Fall.controller using Guid(441942176ee9a724b9afe936d1d03496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cdc781b316e21d755485ac1184486c') in 0.210364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.047055 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Idle.controller
+  artifactKey: Guid(a8555c0cff30527479e32562cef9141f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Idle.controller using Guid(a8555c0cff30527479e32562cef9141f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d2c4ee2c315599cca7e5ffd85ad825') in 0.010575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.809718 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Run.controller
+  artifactKey: Guid(eb79e3fd0dd669f40a90a984b92a0ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Run.controller using Guid(eb79e3fd0dd669f40a90a984b92a0ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2954f17386397180f12303d959338dd6') in 0.005553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.471755 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations
+  artifactKey: Guid(7eb11f9df068c2b45bc52cfc0d6e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations using Guid(7eb11f9df068c2b45bc52cfc0d6e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64db3196c89a4c0679f4d08a0d41deb') in 0.001740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.281474 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(71516b78424254cadaffbf8310a0eede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(71516b78424254cadaffbf8310a0eede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7504eccd9071b81f2b1bbaaa2ecf53f8') in 0.002726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.400137 seconds.
+  path: Assets/Animations/PlayerController.controller
+  artifactKey: Guid(2e6ba207f18c14cd484875bb54b208b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlayerController.controller using Guid(2e6ba207f18c14cd484875bb54b208b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b2a3bbef6c947dd34a3c5e2b687f7a') in 0.025071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.679444 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx
+  artifactKey: Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx using Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1f5212abe4c22d13cb3d58fe345328') in 0.087611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 504.595009 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx
+  artifactKey: Guid(154a724602422044c91070a5f3c67c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx using Guid(154a724602422044c91070a5f3c67c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761c5817be95aaac21860259bd9d4efe') in 0.087557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.347195 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx
+  artifactKey: Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx using Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ca4562193c5d33c1411e08995763fd') in 0.025626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.650139 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx
+  artifactKey: Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx using Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb47524c98860f65b37bc0537e5913d') in 0.025060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 755.055278 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Jump01.fbx
+  artifactKey: Guid(067cc188e25b78b4a940a9fa67cd6ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Jump01.fbx using Guid(067cc188e25b78b4a940a9fa67cd6ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5634938719918f52d5f6ffe8bfca2e3a') in 0.024672 seconds 
