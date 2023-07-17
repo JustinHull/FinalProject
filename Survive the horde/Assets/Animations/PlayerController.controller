@@ -10,8 +10,7 @@ AnimatorState:
   m_Name: BasicMotions@Idle01
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -2805167122739524241}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -71,6 +70,25 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1107 &-1348721704870038589
+AnimatorStateMachine:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New StateMachine
+  m_ChildStates: []
+  m_ChildStateMachines: []
+  m_AnyStateTransitions: []
+  m_EntryTransitions: []
+  m_StateMachineTransitions: {}
+  m_StateMachineBehaviours: []
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 0}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -104,13 +122,13 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -8631036842601423322}
-    m_Position: {x: 217.5, y: 238, z: 0}
+    m_Position: {x: 220, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1511881470583344677}
     m_Position: {x: 390, y: 390, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5305515695924098608}
-    m_Position: {x: 0, y: 350, z: 0}
+    m_Position: {x: 10, y: 280, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -131,8 +149,7 @@ AnimatorState:
   m_Name: BasicMotions@Run01 - Forwards
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -7329524508034163710}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0

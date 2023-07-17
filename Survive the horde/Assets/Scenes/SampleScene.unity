@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3704242055777558425, guid: 156d19f5e1b4b53469340ce62b82f203, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2e6ba207f18c14cd484875bb54b208b7, type: 2}
+    - target: {fileID: 3704242055777558425, guid: 156d19f5e1b4b53469340ce62b82f203, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7316150726056658403, guid: 156d19f5e1b4b53469340ce62b82f203, type: 3}
       propertyPath: m_RootOrder
       value: 1
