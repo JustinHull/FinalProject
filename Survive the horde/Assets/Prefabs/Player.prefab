@@ -1892,7 +1892,6 @@ GameObject:
   - component: {fileID: 7568670774781642055}
   - component: {fileID: 7568670774781642429}
   - component: {fileID: 7568670774781642049}
-  - component: {fileID: 7568670774781642054}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1978,6 +1977,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   turnSpeed: 100
+  projectilePrefab: {fileID: 3732615430629697273, guid: aeabd20c805614cd69db343b0c99a2bb, type: 3}
+  firePoint: {fileID: 0}
 --- !u!114 &7568670774781642049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1991,19 +1992,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
---- !u!114 &7568670774781642054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8747468256320227405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 214a96943867a4c3fa339f336d39a7aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackArea: {fileID: 0}
 --- !u!1 &8951815289773555318
 GameObject:
   m_ObjectHideFlags: 0
