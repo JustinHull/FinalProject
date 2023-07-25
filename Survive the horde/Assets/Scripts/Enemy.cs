@@ -20,4 +20,5 @@ public class Enemy : MonoBehaviour
         enemy.SetDestination(player.position);
         
     }
+
 }

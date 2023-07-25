@@ -28,7 +28,7 @@ public class Health : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("dead");
+        Debug.Log("You died");
         Destroy(gameObject);
     }
 }

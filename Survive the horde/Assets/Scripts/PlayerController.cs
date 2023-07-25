@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     private float forwardInput;
     public float speed;
     public float turnSpeed;
-    public GameObject projectilePrefab;
+    public GameObject projectilePrefab; 
     public Transform firePoint;
 
     Animator animator;
@@ -41,5 +41,7 @@ public class PlayerController : MonoBehaviour
         GameObject newProjectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
         // Optionally set any other properties of the projectile, e.g., damage, owner, etc.
     }
+
+    
 }
 

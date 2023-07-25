@@ -12,6 +12,8 @@ public class ProjectileDamageArea : MonoBehaviour
         {
             EnemyHealth health = collider.GetComponent<EnemyHealth>();
             health.Damage(damage);
+
+            Destroy(gameObject);
         }
     }
 

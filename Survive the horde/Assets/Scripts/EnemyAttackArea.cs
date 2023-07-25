@@ -12,6 +12,8 @@ public class EnemyAttackArea : MonoBehaviour
         {
             Health health = collider.GetComponent<Health>();
             health.Damage(damage);
+
+            Destroy(gameObject);
         }
     }
 
