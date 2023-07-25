@@ -669,6 +669,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2652264421571987597, guid: 9e521a24ee137489ca3e0282004f38e4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a8555c0cff30527479e32562cef9141f, type: 2}
     - target: {fileID: 7568670774781642429, guid: 9e521a24ee137489ca3e0282004f38e4, type: 3}
       propertyPath: firePoint
       value: 
