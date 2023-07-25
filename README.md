@@ -1,2 +1,2 @@
 # FinalProject
-Repository for my final project
+Survive waves of techno-mutant zombies in this futuristic post-apocolyptic world! 
