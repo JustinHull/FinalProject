@@ -1768,8 +1768,8 @@ GameObject:
   - component: {fileID: 1827629865262933920}
   - component: {fileID: -9046748599463136351}
   - component: {fileID: 5992760626109556830}
-  - component: {fileID: 4009265073131550788}
-  - component: {fileID: 3570150405349891009}
+  - component: {fileID: -6531111732838923860}
+  - component: {fileID: 7144163006070776450}
   m_Layer: 0
   m_Name: Boss Mutant
   m_TagString: Untagged
@@ -1791,6 +1791,7 @@ Transform:
   - {fileID: 1827629865255471230}
   - {fileID: 1827629865255471144}
   - {fileID: 7172020717240320396}
+  - {fileID: 2212755573308369988}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -1842,7 +1843,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4009265073131550788
+--- !u!114 &-6531111732838923860
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1851,23 +1852,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1827629865255638474}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6128a93c3c14e4e57a9e17065c3299d6, type: 3}
+  m_Script: {fileID: 11500000, guid: ef17cd6135ff84f0887a9c11a20e0cd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossProjectilePrefab: {fileID: 1078942521981279030, guid: f8486d4a4144f442ca9f73739c279a95, type: 3}
+  firePoint: {fileID: 2212755573308369988}
+  timer: 0
+  waitingTime: 8
+--- !u!114 &7144163006070776450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827629865255638474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a20b987816a2a4146a26c66a4a6288d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 200
---- !u!114 &3570150405349891009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827629865255638474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 393fa3e0f06ea421199c26d5e5bf165e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
 --- !u!1 &1827629865255638476
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,3 +2492,33 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &5161914954930742191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2212755573308369988}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2212755573308369988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161914954930742191}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.936, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1827629865255471146}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
