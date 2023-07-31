@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossHealth : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class BossHealth : MonoBehaviour
         if (health <= 0)
         {
             Die();
+            SceneManager.LoadScene("Win Screen");
         }
     }
 

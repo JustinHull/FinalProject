@@ -1174,11 +1174,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3e50b25a28764587b10a2ac7f2771d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bossEnemy: 0
   bossPrefab: {fileID: 1827629865255638474, guid: 1f6deb5489dd34a01b9278571c1e8c5d, type: 3}
   enemyPrefab: {fileID: 1827629865255638474, guid: 2b95b8c937251bf4a862469a23da16b2, type: 3}
   enemyCount: 0
   waveNumber: 1
+  timer: 0
+  waitingTime: 5
 --- !u!4 &1183340524841329992 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8227672607316071159, guid: 9e521a24ee137489ca3e0282004f38e4, type: 3}
@@ -1213,7 +1214,7 @@ PrefabInstance:
       objectReference: {fileID: 933056378}
     - target: {fileID: 7568670774781642429, guid: 9e521a24ee137489ca3e0282004f38e4, type: 3}
       propertyPath: turnSpeed
-      value: 120
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 7568670774781642429, guid: 9e521a24ee137489ca3e0282004f38e4, type: 3}
       propertyPath: projectilePrefab

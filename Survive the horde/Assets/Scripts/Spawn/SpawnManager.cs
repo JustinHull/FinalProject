@@ -1,21 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpawnManager : MonoBehaviour
 {
-    public bool bossEnemy = false;
     public GameObject bossPrefab;
     public GameObject enemyPrefab;
     public int enemyCount;
     public int waveNumber = 1;
+    public float timer;
+    public int waitingTime = 5;
     private float spawnRange = 30;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        bossEnemy = false;
         SpawnEnemyWave(waveNumber);
     }
 
@@ -43,9 +44,7 @@ public class SpawnManager : MonoBehaviour
 
         for (int i = 0; i < enemiesToSpawn; i++)
         {
-            bossEnemy = false;
             Instantiate(enemyPrefab, GenerateSpawnPosition(), enemyPrefab.transform.rotation);
-
         }
 
     }
@@ -66,9 +65,7 @@ public class SpawnManager : MonoBehaviour
 
     private void Boss()
     {
-           
-            bossEnemy = true;
-            Instantiate(bossPrefab, SpawnPosition(), bossPrefab.transform.rotation);
+        Instantiate(bossPrefab, SpawnPosition(), bossPrefab.transform.rotation);
     }
 
 }
