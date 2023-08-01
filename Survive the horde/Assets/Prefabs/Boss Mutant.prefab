@@ -1861,11 +1861,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossProjectilePrefab: {fileID: 1078942521981279030, guid: f8486d4a4144f442ca9f73739c279a95, type: 3}
   firePoint: {fileID: 2212755573308369988}
-  BossMan: {fileID: 4819594366323907479}
   timer: 0
-  appear: 0
   waitingTime: 8
-  appearWait: 8
 --- !u!114 &7144163006070776450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1878,7 +1875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20b987816a2a4146a26c66a4a6288d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 350
+  health: 500
 --- !u!82 &6384629525693838047
 AudioSource:
   m_ObjectHideFlags: 0
